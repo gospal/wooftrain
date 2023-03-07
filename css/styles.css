@@ -1,0 +1,131 @@
+#title{
+    background-color: #ff4c68;
+}
+h1, h2, h3, h4{
+    font-family: 'Montserrat', bold;
+}
+h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: azure;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8f8f;
+}
+.navbar-brand{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 6;
+}
+.navbar-nav{
+ --bs-nav-link-color:rgb(0, 0, 0);
+ --bs-navbar-brand-color: #ffffff;
+}
+.navbar-dark{
+    --bs-navbar-brand-hover-color: #ffffff;
+    --bs-navbar-brand-color: #000;
+}
+.container-fluid{
+    padding: 15% 7% 3%;
+    padding-top: 1px;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.phoeapp{
+        float: right;
+        height: 400px;
+        margin: -380px 0px;
+}
+@media (max-width: 1000px) {
+    #title{
+        text-align: center;
+    }
+    .phoeapp{
+        height: 150px;
+        margin: -143px 0px;
+    }
+}
+.btn-lg{
+    --bs-btn-padding-x: 2rem;
+}
+.fa-brands{
+    padding-right: 0.5rem;
+}
+.nav-link{
+    font-size: 1rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 8px;
+}
+.dowload{
+    margin: 5% 5% 5% 0;
+}
+#features{
+    padding: 7% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #007984;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #2af1ff;
+    margin-bottom: 1rem;
+}
+/* section of testimonials */
+#testimoalsectio{
+    padding: 7% 15%;
+     text-align: center;
+      background-color: #ff4c68;
+       color: white;
+}
+.testimg{
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressimg{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+.alignn{
+    text-align: center;
+}
+/* pricig section */
+
+#pricing{
+    padding: 100px;
+}
+.cardtree{
+    text-align: center;
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15% 7%;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: azure;
+    text-align: center;
+}
+#footer{
+    padding: 15% 7%;
+    text-align: center;
+}
+.bottomicon {
+    padding: 3% 1%;
+    color: #007984;
+}
+.bottomicon:hover {
+    color: #ff4c68;
+}
